@@ -1,0 +1,316 @@
+* {
+  margin: 5px;
+  padding: 3px;  
+}
+p:hover{
+  color: rgb(255, 217, 0);
+}
+a{
+    color: rgba(0, 128, 0, 0);
+}
+a:hover{
+  color: rgba(95, 158, 160, 0);
+  /* background-color: white ; */
+}
+/* a:active{
+  color: rgba(0, 128, 0, 0);
+} */
+
+/* .items {
+  list-style: none;
+  display: inline;
+  color: white;
+  font-size: 30px;  font-style: oblique;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  align-self: center;
+}
+.navbar {
+  text-align: center;
+  padding: 12px 10px;
+  margin: 10px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  position: relative;
+  flex-direction: row;
+} */
+header{
+  margin: -px;
+  background-color: rgba(223, 177, 116, 0.801);
+  
+  align-items: center;
+  position: relative;
+}
+.navbar{
+display: inline-grid;
+grid-template-columns: auto auto auto;
+font-family: Arial, Helvetica, sans-serif;
+word-spacing: 1px;
+text-transform: uppercase;
+font-weight: 900;
+color: aliceblue;
+
+}
+.items{
+  list-style: none;
+  /* list-style-position: inside; */
+    /* position: relative;
+  justify-content: center; */
+    /* margin: -px; */
+  /* margin: 0 23px; */
+    bottom: 90px;
+      left: 37%;
+}
+.Menu {
+  background: rgb(196, 117, 248);
+  border-radius: 45px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 18px;
+  top: 9px;
+  height: 35px;
+  width: 95px;
+}
+body {
+  background: rgb(144, 227, 154);
+}
+.logo {
+  width: 400px;
+  height: 350px;
+  position: relative;
+  animation: logo-rotate 4s ease-in 1;
+  /* display: block;
+  position: relative; */
+}
+.logo-box{
+  /* text-align: center; */
+  border: 10px solid wheat;
+  margin: 6px;
+  border-radius: 50px;
+  border-style: double;
+}
+
+.input-form{
+color:  rgb(21, 255, 0)
+/* font-weight: 900; */
+
+}
+
+.button1{
+  color: blue;
+}
+@keyframes logo-rotate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg)
+  }
+  
+}
+.restaurant-name{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  bottom: 90px;
+  left: 37%;
+}
+/* .logo-box {
+  margin: 6px;
+  border: 15px solid wheat;
+  position: static;
+  text-align: center;
+  width: 410px;
+  border-radius: 50px;
+  top: 50%;
+  right: 50%;
+} */
+.image-position{
+  padding-left: 535px;
+}
+img {
+  width: 150px;
+  height: 100px;
+}
+.Image-with-z-index {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+}
+#z_index1 {
+  top: 5%;
+  left: 4.3%;
+  z-index: -1;
+}
+#z_index2 {
+  top: 25%;
+  left: 25%;
+  z-index: 0;
+  opacity: 0.7;
+}
+#z_index3 {
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+}
+#z_index4 {
+  top: 50%;
+  right: 50%;
+  z-index: -1;
+}
+#z_index5 {
+  top: 5%;
+  left: 50%;
+  z-index: -1;
+}
+.z-index {
+  transform: translate(495px,0px);
+  margin: 0px;
+  padding: 10px;
+  width: 450px;
+  height: 350px;
+  border: 4px black solid;
+  overflow: auto;
+  position: relative;
+}
+.Interior {
+  width: 405px;
+  height: 335px;
+}
+#image-with-transform{
+  transform: translate(-26px,0px);
+
+}
+#image-with-transform1{
+  width: 421px;
+  height: 350px;
+  border: 4px solid black;
+  margin: 10px;
+  transform: translate(-550px , -374px);
+}
+#image-with-transform2{
+  width: 421px;
+  height: 350px;
+  border: 4px solid black;
+  margin: 10px;
+  transform: translate(500px , -749px)
+}
+@media screen and (min-width: 576px) {
+  body {
+    background-image:url(https://i.redd.it/p4ga3jgyoxs01.gif) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+
+  /* p::before {
+    content: "";
+    display: block;
+    background: blue;
+    width: 20vw;
+    height: 2px;
+  }
+  p::after {
+    content: "";
+    display: block;
+    background: blue;
+    width: 20vw;
+    height: 2px;
+  } */
+}
+@media screen and (min-width: 576px) {
+  h1 {
+    background-color: rgb(144, 227, 154);
+  }
+  h2 { color:violet ;
+  }
+}
+.block {
+  width: 421px;
+  height: 350px;
+  border: 4px solid black;
+  margin: 10px;
+}
+
+h1 {
+  color: rgb(122, 65, 245);
+  /* width: 380px; */
+  text-align: center;
+  /* text-transform: uppercase; */
+}
+h2 {
+  color: rgb(247, 182, 99);
+  width: 150px;
+  position: center;
+}
+h3 {
+  color: rgb(221, 240, 147);
+  width: 40px;
+}
+#bg {
+  color: rgb(221, 240, 147);
+  width: 150px;
+}
+li{
+  color: yellow;
+}
+
+#damn{
+  padding-left: 50px;
+}
+.border {
+  opacity: 20%;
+}
+/* p::before {
+  content: "";
+  display: block;
+  background: green;
+  width: 100vw;
+  height: 2px;
+}
+p::after {
+  content: "";
+  display: block;
+  background: green;
+  width: 100vw;
+  height: 2px;
+} */
+
+.px-para{
+  padding-left: 150px;
+  color: rgba(235, 235, 149, 0.767);
+}
+.Image-copy{
+  padding-left: 100px;
+}
+p{
+  padding-left: 200px;
+  color: rgba(235, 235, 149, 0.767);
+}
+.twenty-fivepx{
+  padding-left: 15px;
+}
+#Interior{
+  
+  text-decoration: underline;
+  text-transform: capitalize;
+padding-left: 250px;
+}
+.transform-text-up{
+  transform: translate(0px , -600px);
+}
+.Top-color-text{
+  color: antiquewhite;
+}
+#Menu::first-line{
+  font-size: 4rem;
+  color: darkorchid;
+}
+#Details{
+  font-size: 4rem;
+}
